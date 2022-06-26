@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.main{
+    width: 345px;
+    height: 406px;
+    background-color:hsl(213, 19%, 18%);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+
+.star{
+    margin-top: 35px;
+    padding-left: 28px;
+    
+}
+
+.heading1{
+    padding-left: 28px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-size: 28px;
+    font-style: bold;
+}
+
+.subtext1{
+    padding-left: 28px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+}
+
+div button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 18px;
+    margin-top: 30px;
+    font-family: 'Overpass', sans-serif;
+    background-color:hsl(213, 19%, 23%);
+    border: 5px;
+    font-weight: bold;
+    color:  hsl(217, 12%, 63%);
+}
+div button:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+div button:active{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.circe-rating{
+    margin-left: 28px;
+}
+
+.submit{
+    width: 300px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.submit:active{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
